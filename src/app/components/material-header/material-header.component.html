@@ -1,0 +1,9 @@
+<div class="header">
+  <div class="displayName">
+    {{myDisplayName}}
+  </div>
+  <div *ngIf="enableSorting" >
+    <a *ngIf="isSortDescending() || isSortNone()" (click)="onSort('asc', $event)"  mat-icon-button><mat-icon>arrow_drop_up</mat-icon></a>
+    <a *ngIf="isSortAscending() " (click)="onSort('desc', $event)"  mat-icon-button><mat-icon>arrow_drop_down</mat-icon></a>
+  </div>
+</div>

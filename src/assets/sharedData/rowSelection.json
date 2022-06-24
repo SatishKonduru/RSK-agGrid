@@ -1,0 +1,12 @@
+[
+
+  {"name": "Satish Konduru Bhupathi RSK Helpline", "course": "Angular", "age":42, "price": 29000},
+  {"name": "Nagesh", "course": "React", "age":62, "price": 20000},
+  {"name": "Suresh", "course": "Vue", "age":35, "price": 30000},
+  {"name": "Renu", "course": "Angular", "age":36, "price": 25000},
+  {"name": "Chikkie", "course": "React", "age":16, "price": 15000},
+  {"name": "Micky", "course": "Vue", "age":15, "price": 20000},
+  {"name": "Konduru", "course": "Angular", "age":40, "price": 30000},
+  {"name": "RSK", "course": "React", "age":26, "price": 28000},
+  {"name": "Siva", "course": "Vue", "age":29, "price": 32000}
+]

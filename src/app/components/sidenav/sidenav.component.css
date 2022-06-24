@@ -1,0 +1,40 @@
+mat-icon{
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.logo{
+  text-align: center;
+  padding: 2.6rem 1rem;
+
+}
+.logo img{
+  width: 200px;
+}
+mat-divider{
+  border-top-width: 2px;
+  border-color:#fff;
+}
+a {
+  color: #fff !important;
+  font-size: 0.8rem;
+  height: 44px !important;
+  margin-bottom: 4px;
+}
+a:hover{
+  color:#f2f5f7;
+}
+.list-item-active{
+  background: blue !important;
+  border-radius: 1.2rem 1.2rem 1.2rem;
+  color:#f2f5f7;
+}
+
+mat-nav-list h2{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 50px;
+}
+
+

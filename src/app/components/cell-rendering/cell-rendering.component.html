@@ -1,0 +1,19 @@
+<div class="container-fluid page">
+  <div class="d-flex page_box p-3 mt-2">
+  Cell Rendering
+  </div>
+  <div class="page_content shadow p-3 position-relative">
+    <div class="page_content-data position-absolute "
+    style="width: 90%; height: 80%;">
+      <ag-grid-angular
+    style="width: 100%; height: 100%;"
+    class="ag-theme-alpine mx-auto"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef"
+    (gridReady)="onGridReady($event)"
+  ></ag-grid-angular>
+
+    </div>
+  </div>
+  </div>

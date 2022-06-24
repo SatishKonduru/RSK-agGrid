@@ -1,0 +1,48 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "RSK",
+      "dept": "NodeJS",
+      "address": {
+        "street": "Jubli Hills",
+        "city": "Nandyal",
+        "state": "Karnataka",
+        "pin": "518505"
+      }
+    },
+    {
+      "id": 2,
+      "name": "SATISH",
+      "dept": "React",
+      "address": {
+        "street": "Bommala Satram",
+        "city": "Nandyal",
+        "state": "AP",
+        "pin": "518502"
+      }
+    },
+    {
+      "id": 3,
+      "name": "RENU",
+      "dept": "Vue",
+      "address": {
+        "street": "Boya Peta",
+        "city": "Betamcherla",
+        "state": "AP",
+        "pin": "514204"
+      }
+    },
+    {
+      "id": 4,
+      "name": "NAGESH",
+      "dept": "BootStrap",
+      "address": {
+        "street": "Valmiki Nagar",
+        "city": "Hindupur",
+        "state": "AP",
+        "pin": "512504"
+      }
+    }
+  ]
+}

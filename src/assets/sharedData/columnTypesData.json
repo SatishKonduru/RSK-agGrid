@@ -1,0 +1,50 @@
+[
+  {
+    "athlete":"Satish Konduru",
+    "age":23,
+    "state":"Andhra Pradesh",
+    "year":2022,
+    "date":"2008/02/25",
+    "sport":"Swimming",
+    "gold":8,
+    "silver":0,
+    "bronze":0,
+    "total":8
+  },
+  {
+    "athlete":"Renu Konduru",
+    "age":19,
+    "state":"Karnataka",
+    "year":2020,
+    "date":"2004/08/29",
+    "sport":"Shooting",
+    "gold":6,
+    "silver":0,
+    "bronze":2,
+    "total":8
+  },
+  {
+    "athlete":"RSK",
+    "age":27,
+    "state":"Tamilnadu",
+    "year":2012,
+    "date":"2012/08/12",
+    "sport":"Swimming",
+    "gold":4,
+    "silver":2,
+    "bronze":0,
+    "total":6
+  },
+  {
+    "athlete":"Nageswara Rao",
+    "age":47,
+    "state":"Andhra Pradesh",
+    "year":2021,
+    "date":"2012/08/12",
+    "sport":"Running",
+    "gold":4,
+    "silver":2,
+    "bronze":0,
+    "total":6
+  }
+]

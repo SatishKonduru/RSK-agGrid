@@ -1,0 +1,37 @@
+<mat-nav-list>
+  <div class="logo py-4">
+    <img src="../../../assets/logo.svg">
+  </div>
+  <mat-divider></mat-divider>
+  <h2>Ag-grid : Angular</h2>
+  <mat-divider></mat-divider>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/home'">Home</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/sort'">Sorting</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/filter'">Filtering</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/rowSelection'">Row Selection</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/remoteData'">Remote Data</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/valueGetter'">Value Getter</a>
+  <a mat-list-item [matMenuTriggerFor]="menu">Updating Data</a>
+  <mat-menu #menu >
+    <button mat-menu-item [routerLink]="'/updateRowData'">Row Data</button>
+    <button mat-menu-item [routerLink]="'/updateSingleRowCellData'">Single Row Data/Cell Data</button>
+    <button mat-menu-item [routerLink]="'/transaction'">Transaction</button>
+  </mat-menu>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/valueFormatter'">Value Formatter</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/cellRendering'">Cell Rendering</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/columnTypes'">Column Types</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/movingColumns'">Moving Columns</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/rowDrag'">Row Drag</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/rowPinning'">Row Pinning</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/rowHeight'">Row Height</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/rowStyling'">Row Styling</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/editors'">Editors</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/valueParser'">Value Parser</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/valueSetter'">Value Setter</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/savingData'">Saving Data</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/rendererComponents'">Renderer Components</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/myEditor'">My Editor(for Date)</a>
+  <a mat-list-item routerLinkActive="list-item-active" [routerLink]="'/myHeader'">My Header</a>
+
+
+</mat-nav-list>

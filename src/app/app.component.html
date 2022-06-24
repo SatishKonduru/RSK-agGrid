@@ -1,0 +1,77 @@
+<!-- <h1>Ag-Grid : RSK Helpline </h1><hr>
+<div class="row">
+  <div class="col-md-3">
+    <div class="card  text-center" >
+      <div class="card-title" style="background: #e28010; color: #fff; font-size: 18px; font-weight: bold;"> Home</div>
+      <div class="card-body">
+        <button mat-raised-button color="primary" [routerLink]="'/'" >Home</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card  text-center" >
+      <div class="card-title" style="background: #050285; color: #fff; font-size: 18px; font-weight: bold;"> Sorting</div>
+      <div class="card-body">
+        <button mat-raised-button color="primary" [routerLink]="'/sort'" routerLinkActive="active">Sort</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card  text-center" >
+      <div class="card-title" style="background: #850269; color: #fff; font-size: 18px; font-weight: bold;"> Filter</div>
+      <div class="card-body">
+        <button mat-raised-button color="primary" [routerLink]="'/filter'" routerLinkActive="active">Filter</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card  text-center" >
+      <div class="card-title" style="background: #b43914; color: #fff; font-size: 18px; font-weight: bold;"> Row Selection</div>
+      <div class="card-body">
+        <button mat-raised-button color="primary" [routerLink]="'/singleRowSelection'" routerLinkActive="active">Row Selection</button>
+      </div>
+    </div>
+</div>
+
+  <div class="col-md-3">
+    <div class="card  text-center" >
+      <div class="card-title" style="background: #680141; color: #fff; font-size: 18px; font-weight: bold;">Remote Data</div>
+      <div class="card-body">
+        <button mat-raised-button color="primary" [routerLink]="'/remoteData'" routerLinkActive="active">Remote Data</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-3">
+    <div class="card  text-center" >
+      <div class="card-title" style="background: #01333b; color: #fff; font-size: 18px; font-weight: bold;">Value Getter</div>
+      <div class="card-body">
+        <button mat-raised-button color="primary" [routerLink]="'/valueGetter'" routerLinkActive="active">Value Getter</button>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+<hr>
+<router-outlet></router-outlet>
+ -->
+
+ <!--Admin Dashboard Style-->
+ <mat-drawer-container >
+   <mat-drawer  mode="side" [opened]="sideBarOpen">
+    <app-sidenav></app-sidenav>
+   </mat-drawer>
+   <mat-drawer-content>
+     <app-header (toggleSidebarForMe)="sideBarToggler()"></app-header>
+     <router-outlet></router-outlet>
+   </mat-drawer-content>
+ </mat-drawer-container>

@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'ag-grid-community/dist/styles/ag-grid.css';
+@import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.wrapText{
+  white-space: normal !important;
+}
+.fullWidthCell{
+  background: red;
+  color: #fff;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  white-space: normal;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+
+}
+.rowStyle{
+  color: #fff !important;
+  background-image: linear-gradient(to right, #000000, #91287f) !important
+}
+.rowDanger{
+  color: #fff !important;
+  background-image: linear-gradient(to right, #000000, #e40505) !important
+}
+/* .ag-row-hover{
+  color: #fff !important;
+  background-image: linear-gradient(to right, #000000, #0540e4) !important;
+} */
+
+
+

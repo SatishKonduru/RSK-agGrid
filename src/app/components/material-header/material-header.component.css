@@ -1,0 +1,11 @@
+.header{
+display: flex;
+}
+.displayName{
+  padding-top: 10px;
+  color: red;
+}
+mat-icon{
+  font-size: 30px;
+  color: blueviolet;
+}

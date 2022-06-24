@@ -1,0 +1,28 @@
+<div class="container-fluid page">
+  <div class="d-flex page_box p-3 mt-2" >
+  Row Selection
+  </div>
+  <div class="page_content shadow p-3 position-relative">
+    <div class="page_content-data position-absolute" style="width: 100%; height:70%;">
+
+        Selection: <strong>{{mySelection | async}}</strong>
+
+
+      <ag-grid-angular
+      style="width: 60%; height:100%;"
+      class="ag-theme-alpine mx-auto"
+      [columnDefs]="columnDefs"
+      [defaultColDef]="defaultColDef"
+      [rowSelection]="rowSelection"
+      [rowMultiSelectWithClick]="true"
+      [rowData]="rowData"
+      (selectionChanged)="onSelectionChanged()"
+      (gridReady)="onGridReady($event)">
+
+      </ag-grid-angular>
+
+    </div>
+  </div>
+  </div>
+
+

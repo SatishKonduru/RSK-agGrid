@@ -1,0 +1,26 @@
+.page{
+  color: #fff;
+  padding: 0 1rem;
+  background: #f1f5f9;
+
+}
+.page .page_box{
+  min-height: 120px;
+  background: #1e293b;
+  margin: 0 -1rem;
+  font-size: 36px;
+}
+.page .page_content{
+  min-height: calc(100vh - 178px);
+  border-radius: 10px;
+  margin-top:-2rem;
+  background: #fff;
+  color: #000;
+  font-size: 18px;
+}
+/* .page .page_content-data{
+  top: 20%;
+  left: 20%;
+
+} */
+

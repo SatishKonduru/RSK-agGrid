@@ -1,0 +1,32 @@
+/* h1{
+  text-align: center;
+  color: #1f4d01
+}
+.card{
+width: 250px;
+height: 150px;
+display: inline-block;
+margin: 5px;
+}
+button{
+  margin: 15px;
+}
+.active{
+  background: green;
+  color: #fff;
+} */
+/* Dashboard Style */
+/* :host{
+  display: flex;
+  flex-direction: column;
+  height: 100%
+} */
+mat-drawer{
+  width: 260px;
+  background: #1e293b;
+}
+mat-drawer-container{
+  height: 100%;
+}
+
+

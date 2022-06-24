@@ -1,0 +1,26 @@
+<div class="container-fluid page">
+  <div class="d-flex page_box p-3 mt-2" >
+  Update Row Data
+  </div>
+  <div class="page_content shadow p-3 position-relative">
+    <div class="page_content-data position-absolute"
+    style="width: 80%; height: 80%;">
+    <div style="margin-bottom: 5px; min-height: 30px;">
+      <button mat-raised-button color="primary" (click)="onBatch1()">Batch No: 1</button>
+      <button mat-raised-button color="warn" (click)="onBatch2()">Batch No: 2</button>
+    </div>
+
+      <ag-grid-angular
+        style="width: 80%; height: 100%;"
+        class="ag-theme-alpine"
+        [columnDefs]="columnDefs"
+        [rowData]="rowData"
+        [rowSelection]="rowSelection"
+        [animateRows]="false"
+        (gridReady)="onGridReady($event)"
+      ></ag-grid-angular>
+    </div>
+  </div>
+  </div>
+
+
